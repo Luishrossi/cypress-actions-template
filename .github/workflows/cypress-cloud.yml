@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
     inputs:
       spec:
-        description: Run by cypress command line
-        default: cypress/e2e/*
+        description: Run by cypress Node command line
+        default: node runner.js
 
 jobs:
   cypress-e2e-electron:
