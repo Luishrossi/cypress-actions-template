@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       spec:
-        description: Run by cypress Node command line
+        description: Run by cypress node command line
         default: node runner.js
 
 jobs:
